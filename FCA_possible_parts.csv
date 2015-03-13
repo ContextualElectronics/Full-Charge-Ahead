@@ -1,0 +1,6 @@
+Input Voltage Range (Min),Input Voltage Range (Max),Topology,Charger Type,Battery Voltage,Functions,Charge Current,PKG type,MPN,Datasheet,Notes
+4.5,5.5,Switcher – Buck,USB,4.1V,,,,,,
+4.5,24,Linear,USB/WW,8.2V,Double Cell,EXT,SOIC,LM3622,,
+5,22,Linear,USB/WW,4.1V,Single Cell,EXT,,Max1679EUA,http://images.ihscontent.net/vipimages/VipMasterIC/IC/MAXM/MAXMS00880/MAXMS00880-1.pdf,test
+6,28,Switcher – Buck,WW,8.2V,Double Cell,,QSOP,MAX1873,,
+4.35,16,Switcher – Buck,USB/WW,8.2V,Double Cell,2000,QFN,BQ24100,,
