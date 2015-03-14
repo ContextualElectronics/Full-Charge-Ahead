@@ -1,6 +1,16 @@
-Input Voltage Range (Min),Input Voltage Range (Max),Topology,Charger Type,Battery Voltage,Functions,Charge Current,PKG type,MPN,Datasheet,Notes
-4.5,5.5,Switcher – Buck,USB,4.1V,,,,,,
-4.5,24,Linear,USB/WW,8.2V,Double Cell,EXT,SOIC,LM3622,,
-5,22,Linear,USB/WW,4.1V,Single Cell,EXT,,Max1679EUA,http://images.ihscontent.net/vipimages/VipMasterIC/IC/MAXM/MAXMS00880/MAXMS00880-1.pdf,test
-6,28,Switcher – Buck,WW,8.2V,Double Cell,,QSOP,MAX1873,,
-4.35,16,Switcher – Buck,USB/WW,8.2V,Double Cell,2000,QFN,BQ24100,,
+Input V-Min	Input V-Max	Topology	Charger Type	Battery Voltage	Functions	Charge Current (Max)	PKG type	MPN	Parts.io Link	Datasheet Link	Datasheet	Notes
+4.5	24	Linear	USB/WW	8.2V	Double Cell	EXT	SOIC	LM3622	Search	http://www.ti.com/lit/ds/symlink/lm3622.pdf	LM3622 Datasheet	External Pass Transistor
+5	22	Linear	USB/WW	4.1V	Single Cell	EXT	uMax	MAX1679	Search	http://images.ihscontent.net/vipimages/VipMasterIC/IC/MAXM/MAXMS00880/MAXMS00880-1.pdf	MAX1679 Datasheet	No Inductor required, external PMOS
+6	28	Switcher - Buck	WW	8.2V	Double Cell	EXT	QSOP	MAX1873	Search	http://datasheets.maximintegrated.com/en/ds/MAX1873.pdf	MAX1873 Datasheet	Multi cell, not USB compatible
+4.35	16	Switcher - Buck	USB/WW	8.2V	Double Cell	2000	QFN	BQ24100	Search	http://www.ti.com/lit/ds/slus606o/slus606o.pdf	BQ24100 Datasheet	Synchronous switcher, load monitoring,3 charge modes. 
+4.5	5	Linear	USB/WW	4.2V	Single Cell	500	WSON	LM3658	Search	http://www.ti.com/lit/ds/snvs328e/snvs328e.pdf	LM3658 Datasheet	Selectable charge currents, 5 charge modes. Also acts as LDO when no battery present.
+3.75	6	Linear	USB	4.2V	Single Cell	500	SOT23-5	MCP73812	Search	http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf	MCP73812 Datasheet	Selectable charge currents, only 2 caps and a resistor required external
+3.75	6	Linear	USB	4.2V	Single Cell	1000	MSOP	MCP73833	Search	http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf	MCP73833 Datasheet	2 status LEDs and a thermal compensation circuit
+4.5	6.5	Linear	USB	4.2V	Single Cell	150	SOT23-5	LTC4054-4.2	Search	http://cds.linear.com/docs/en/datasheet/4054l42fa.pdf	LTC4054-4.2 Datasheet	Meant for low capacity cells like li-ion coin cells
+4.55	8	Linear	USB	4.2V	Single Cell	EXT	SOT23-5	LTC1734	Search	http://cds.linear.com/docs/en/datasheet/1734fs.pdf	LTC1734 Datasheet	External Pass Transistor, 1% accuracy, programmable charge current.
+3.8	5.5	Linear	USB/WW	4.2V	Single Cell	1500	DFN	LTC4067	Search	http://cds.linear.com/docs/en/datasheet/4067f.pdf	LTC4067 Datasheet	
+4.7	22	Switcher - Buck	USB/WW	4.2V	Single Cell	EXT	SOIC	LTC4002ES8-4.2	Search	http://cds.linear.com/docs/en/datasheet/4002f.pdf	LTC4002ES8-4.2 Datasheet	
+3.5	12	Linear	USB	4.2V	Single Cell	1000	MSOP	BQ24090	Search	http://www.ti.com/lit/ds/symlink/bq24090.pdf	BQ24090 Datasheet	The bq2409x has a single power output that charges the battery. A system load can be placed in parallel with the battery as long as the average system load does not keep the battery from charging fully during the 10-hour safety timer.
+4.5	12	Linear	USB/WW	4.2V	Single Cell	1500	MSOP	ADP2291	Search	http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2291.pdf	ADP2291 Datasheet	External Pass Transistor
+4.25	6	Linear	USB/WW	4.2V	Single Cell	800	SOT-89-5	XC6802	Search	http://www.torex.co.jp/english/products/battery_charge_ic/data/XC6802.pdf	XC6802 Datasheet	Temperature overheat protection because of small size.
+4.5	15	Linear	USB/WW	4.2V	Single Cell	EXT	SOIC	BQ2057CSN	Search	http://www.ti.com/lit/ds/symlink/bq2057c.pdf	BQ2057CSN Datasheet	External Pass Transistor
