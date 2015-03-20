@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by Cvpcb 0.201503190816+5525~22~ubuntu14.10.1-product   date = Thu 19 Mar 2015 08:20:39 PM EDT
+
+BeginCmp
+TimeStamp = /55079779;
+Reference = C101;
+ValeurCmp = 4.7U;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550791A6;
+Reference = C102;
+ValeurCmp = 4.7U;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550799E4;
+Reference = CON101;
+ValeurCmp = USB-MICRO-B;
+IdModule  = FCA:10118193;
+EndCmp
+
+BeginCmp
+TimeStamp = /550789AA;
+Reference = D101;
+ValeurCmp = NOPOP;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078987;
+Reference = D102;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550788DE;
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507ABC5;
+Reference = P101;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /550792A2;
+Reference = P102;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078A58;
+Reference = R101;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078A16;
+Reference = R102;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550789D2;
+Reference = R103;
+ValeurCmp = NOPOP;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507A9EA;
+Reference = R104;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55079036;
+Reference = R105;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078DF8;
+Reference = R106;
+ValeurCmp = 2K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507CC4C;
+Reference = R107;
+ValeurCmp = NOPOP;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507CC96;
+Reference = R108;
+ValeurCmp = NOPOP;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507CCD8;
+Reference = R109;
+ValeurCmp = NOPOP;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078D06;
+Reference = U101;
+ValeurCmp = MCP73834-FCI/UN;
+IdModule  = Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm;
+EndCmp
+
+EndListe

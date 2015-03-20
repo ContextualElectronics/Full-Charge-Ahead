@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/chrisg/PCBs/Full-Charge-Ahead/FullChargeAhead/FullChargeAhead.sch)
-    (date "Mon 16 Mar 2015 10:33:55 PM EDT")
-    (tool "Eeschema 0.201502010101+5397~21~ubuntu14.04.1-product"))
+    (date "Wed 18 Mar 2015 11:46:03 PM EDT")
+    (tool "Eeschema 0.201502211246+5439~21~ubuntu14.04.1-product"))
   (components
     (comp (ref D103)
       (value LED)
@@ -184,9 +184,9 @@
         (pin (num 10) (name Vbat) (type power_out)))))
   (libraries
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+      (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical FullChargeAhead)
       (uri /home/chrisg/PCBs/Full-Charge-Ahead/FullChargeAhead/FullChargeAhead.lib)))
   (nets
