@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:FullChargeAhead
+LIBS:FullChargeAhead-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -379,8 +380,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 2650 2100 2250
 Wire Wire Line
-	700  2250 2750 2250
-Wire Wire Line
 	2350 2250 2350 2350
 Wire Wire Line
 	950  3050 700  3050
@@ -412,13 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4600 4150 4600
 Wire Wire Line
-	2500 2950 2750 2950
-Wire Wire Line
-	2750 2950 2750 2250
-Connection ~ 2350 2250
-Wire Wire Line
 	2500 2750 2750 2750
-Connection ~ 2750 2750
 Wire Wire Line
 	2500 2850 2750 2850
 Connection ~ 2750 2850
@@ -428,4 +421,12 @@ Wire Wire Line
 	1950 2850 2200 2850
 Wire Wire Line
 	1950 2950 2200 2950
+Wire Wire Line
+	700  2250 2350 2250
+Wire Wire Line
+	2750 2750 2750 3050
+Connection ~ 2750 3050
+Wire Wire Line
+	2500 2950 2750 2950
+Connection ~ 2750 2950
 $EndSCHEMATC
