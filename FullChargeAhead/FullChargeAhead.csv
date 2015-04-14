@@ -1,0 +1,19 @@
+Reference, Value, Footprint, Datasheet, MPN
+D103,LED,LEDs:LED-0805,
+D102,LED,LEDs:LED-0805,
+D101,NOPOP,LEDs:LED-0805,
+R103,NOPOP,Resistors_SMD:R_0805_HandSoldering,
+R102,470,Resistors_SMD:R_0805_HandSoldering,
+R101,470,Resistors_SMD:R_0805_HandSoldering,
+U101,MCP73834,Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm,,MCP73834-FCI/UN
+R106,2K,Resistors_SMD:R_0805_HandSoldering,
+R105,10K,Resistors_SMD:R_0805_HandSoldering,
+C102,4.7U,Capacitors_SMD:C_1206_HandSoldering,
+P102,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,
+C101,4.7U,Capacitors_SMD:C_1206_HandSoldering,
+CON101,USB-MICRO-B,FCA:10118193,,10118193-0001LF
+R104,1K,Resistors_SMD:R_0805_HandSoldering,
+P101,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,
+R107,NOPOP,Resistors_SMD:R_0805_HandSoldering,
+R108,NOPOP,Resistors_SMD:R_0805_HandSoldering,
+R109,NOPOP,Resistors_SMD:R_0805_HandSoldering,
